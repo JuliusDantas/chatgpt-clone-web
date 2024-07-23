@@ -4,7 +4,7 @@ const URL_API = 'http://localhost:5000/api/prompt'
 
 export const makeRequest = async (message) => {
   console.log(message)
-  const {data} = await axios.post(URL_API, 'API retorno :', message)
+  const {data} = await axios.post(URL_API, message)
  
   return data
 }

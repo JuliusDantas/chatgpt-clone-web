@@ -13,7 +13,8 @@ function App() {
     user: "gpt",
     message:"Como posso te ajudar hoje?"
   }])
-  
+
+
   async function handleSubmit(e) {
     e.preventDefault();
 
