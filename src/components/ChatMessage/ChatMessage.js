@@ -10,7 +10,7 @@ const ChatMessage = ({message}) =>{
     <div className='chat-message-center'>
 
       <div className={
-      `avatar ${message.user === 'gpt' && "chatgpt"}`}
+      `App-logo avatar ${message.user === 'gpt' && "chatgpt"}`}
       >
         {message.user === "gpt" && 
                         <svg
